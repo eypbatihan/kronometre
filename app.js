@@ -19,8 +19,8 @@ btnPlayPause.onclick = () => {
 
 function timer() {
   salise += 1;
-  salise == 99 ? (saniye++, (salise = 0)) : null;
-  saniye == 60 ? (dakika++, (saniye = 0), ses.play()) : null;
+  salise == 99 ? (saniye++, (salise = 0), ses.play()) : null;
+  saniye == 60 ? (dakika++, (saniye = 0)) : null;
   printScreen();
 }
 
