@@ -1,17 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cutive+Mono&family=Girassol&family=IM+Fell+English+SC&display=swap");
+
 body {
-  background-color: #389677;
+  background-color: rgb(9, 9, 9);
   display: flex;
   text-align: center;
   justify-content: center;
+  color: chartreuse;
+  text-shadow: 1px 1px brown;
+}
+.container {
+  background-color: #389677;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid brown;
+  outline: chartreuse double 5px;
+  padding: 1rem;
+  height: 25rem;
+  border-radius: 50%;
 }
 .title {
-  background-color: brown;
-  width: 200px;
-  margin-left: 35px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 2rem;
 }
 
 .timer {
-  font-size: 50px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 5rem;
   font-weight: 800;
   letter-spacing: 0.5rem;
   margin-bottom: 1rem;
@@ -24,5 +40,5 @@ button {
   border-radius: 50rem;
   border: 1px solid brown;
   color: #389677;
-  background-color: white;
+  background-color: chartreuse;
 }

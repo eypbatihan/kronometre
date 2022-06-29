@@ -17,14 +17,17 @@
     <div class="container">
       <div class="title">
         <h2>StopWatch</h2>
+        <audio>
+          <source src="./ses.mp3" type="audio/mpeg" />
+        </audio>
       </div>
       <div class="timer">
         <span class="dakika">00</span><span class="saniye">: 00 :</span
-        ><span class="salise"></span>00
+        ><span class="salise">00</span>
       </div>
       <div class="buttons">
-        <button><i class="fa fa-play-circle"></i></button
-        ><button><i class="fa fa-stop-circle"></i></button>
+        <button id="btn-play-pause"><i class="fa fa-play-circle"></i></button
+        ><button id="btn-stop"><i class="fa fa-stop-circle"></i></button>
       </div>
     </div>
     <script src="app.js"></script>
