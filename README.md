@@ -1,4 +1,4 @@
-# Project : stopwatch
+# Project :stopwatch
 
 https://eypbatihan.github.io/kronometre/
 
